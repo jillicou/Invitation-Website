@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Spin-off of "Project: Event invite"</title>
+        <style>
+            body{background-image:url(https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/mountain_matterhorn.png);}
+            .header-1{background-color:rgb(199, 199, 199);
+                width:220px;
+                border: outset;
+                padding:6px;
+                margin:auto;
+                font-family:monospace;
+            }
+            #header-2{background-color:rgb(191, 191, 191);
+                margin:auto;
+                width:350px;
+                padding:6px;
+                border:inset ;
+                position:absolute;
+                top:62px;
+                left:75px;
+                font-family:monospace;
+                z-index:1;
+            }
+            #details{background-color:rgb(224, 224, 224);
+                font-family:monospace;
+                position:absolute;
+                z-index:2;
+                top:91px;
+                left:76px;
+                width:363px;
+                border:outset ;
+                overflow-y:auto;
+                
+                
+            }
+            #happy{width:50px;
+                border:outset;
+                padding:6px;
+                margin:6px;
+                float:left;
+                
+            }
+    
+
+        </style>
+    </head>
+   <body>
+   <div id="div">
+        <h1 class="header-1">You're invited!</h1>
+        <h2 id="header-2">Intro to Programming</h2>
+        
+        <p id="details"><img id="happy" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/creatures/Hopper-Happy.png">Hello! Welcome to this introduction to programming!</p>
+       </div>
+        
+    </body>
+    
+</html>
